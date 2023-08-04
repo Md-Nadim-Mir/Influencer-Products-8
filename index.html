@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Influencer Products</title>
+
+   <!-- favicon -->
+   <link rel="shortcut icon" href="./Asset/images/main-camera.png" type="image/x-icon">
+
+
+    <!-- fontawesome add  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- tailwind and desiUi  -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+
+
+
+
+</head>
+
+<body>
+
+    <!-- navbar section -->
+
+    <nav class="max-w-screen-xl mx-auto px-4 md:px-16 lg:px-24 mb-5 mt-2 py-2">
+        <div class="navbar bg-[#4b8b8b] rounded-xl md:px-5">
+            <div class="navbar-start">
+                <div class="dropdown pr-20 md:pr-32 lg:pr-0 text-white ">
+                    <label tabindex="0" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </label>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 font-semibold text-white bg-[#4b8b8b]">
+                        <li><a>Home </a></li>
+                        <li><a>Products</a></li>
+                        <li><a>Sign Up</a></li>
+                        <li><a>Log In</a></li>
+                        <li class="bg-[#70cbcb] rounded-xl"><a href="">
+                            <button class="btn btn-ghost btn-circle">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                              </button>
+                        </a></li>
+                      
+                    </ul>
+
+                
+                </div>
+
+               <div>
+                <h1 class="text-white font-bold text-base lg:text-xl">Influencer Products</h1>
+               </div>
+
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 font-semibold text-white">
+                    <li><a>Home </a></li>
+                    <li><a>Products</a></li>
+                    <li><a>Sign Up</a></li>
+                    <li><a>Log In</a></li>
+                    
+                </ul>
+
+                <div class="form-control">
+                    <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
+                  </div>
+
+            </div>
+            <div class="navbar-end">
+                <div class="indicator">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" style="color: rgb(255, 77, 0);"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+                    </svg>
+                    <span class="badge badge-sm indicator-item">8</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- banner section -->
+
+    <section  class="max-w-screen-xl mx-auto px-4 md:px-16 lg:px-24 mb-5 mt-2 py-2">
+
+        <div class="hero  bg-base-200 rounded-xl ">
+            <div class="hero-content flex-col lg:flex-row-reverse ">
+              <img src="./Asset/images/main-camera.png" style="background-image: url(./Asset/images/Circle\ design.svg); background-repeat: no-repeat; background-position: center;" class="w-3/4  p-8" />
+              
+              <div class="text-center lg:text-left">
+                <h1 class="text-2xl lg:text-4xl font-bold">Start your Journey as
+                    Influencer</h1>
+                <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                <button class="btn text-white bg-[#4B8B8B] border-none rounded-xl">Prebook Now <i class="fa-solid fa-right-long fa-fade" style="color: #f7f7f7;"></i></button>
+              </div>
+            </div>
+          </div>
+
+    </section>
+
+
+    <!-- gallery section -->
+
+    <section class="max-w-screen-xl mx-auto px-4 md:px-16 lg:px-24  mb-5 mt-2 py-2">
+
+        <h1 class="text-black py-5 font-bold text-4xl text-center">Our Patners Company</h1>
+
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-7 gap-2 py-16 px-6 rounded-xl bg-base-200">
+
+
+            
+             <img src="./Asset/logos/Alibaba.svg" alt="">
+             <img src="./Asset/logos/Amazon.svg" alt="">
+            <img src="./Asset/logos/Daraz.pk Logo.svg" alt="">
+            <img src="./Asset/logos/Ebay.svg" alt="">
+            <img src="./Asset/logos/Rakuten.svg" alt="">
+            <img src="./Asset/logos/Target.svg" alt="">
+            <img src="./Asset/logos/Walmart.svg" alt="">
+           
+
+        </div>
+
+    </section>
+
+
+    <!-- popular collection -->
+
+    <section class="max-w-screen-xl mx-auto px-4 md:px-16 lg:px-24  mb-5 mt-2 py-2">
+        
+        <h1 class="text-black py-5 font-bold text-4xl text-center">Popular Collection</h1>
+
+
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3 md:gap-2 lg:gap-5 pt-12">
+
+            <!-- card 1 -->
+
+            <div class="card   shadow-xl">
+                <figure><img  src="./Asset/images/tripod.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">Flex Tripod</h2>
+                  <p class="text-base font-bold">$50.48</p>
+                  <div>
+                    
+                    <div class="rating">
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" checked />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                      </div>
+
+                  </div>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions">
+                    <button class="btn text-white bg-[#4B8B8B] border-none rounded-xl">Buy Now</button>
+                  </div>
+                </div>
+            </div>
+
+
+            <!-- card 2-->
+
+            <div class="card   shadow-xl">
+                <figure><img src="./Asset/images/mic.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">Microphone</h2>
+                  <p class="text-base font-bold">$120.25</p>
+                  <div>
+                    
+                    <div class="rating">
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" checked />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                      </div>
+
+                  </div>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions">
+                    <button class="btn text-white bg-[#4B8B8B] border-none rounded-xl">Buy Now</button>
+                  </div>
+                </div>
+            </div>
+
+
+             <!-- card 3-->
+
+             <div class="card   shadow-xl">
+                <figure><img src="./Asset/images/airpod.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">Airbuds</h2>
+                  <p class="text-base font-bold">$100.00</p>
+                  <div>
+                    
+                    <div class="rating">
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" checked />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                      </div>
+
+                  </div>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions">
+                    <button class="btn text-white bg-[#4B8B8B] border-none rounded-xl">Buy Now</button>
+                  </div>
+                </div>
+            </div>
+
+
+            <!-- card 4 -->
+
+            <div class="card   shadow-xl">
+                <figure><img  src="./Asset/images/drone.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">Drone</h2>
+                  <p class="text-base font-bold">$950.21</p>
+                  <div>
+                    
+                    <div class="rating">
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" checked />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                      </div>
+
+                  </div>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions">
+                    <button class="btn text-white bg-[#4B8B8B] border-none rounded-xl">Buy Now</button>
+                  </div>
+                </div>
+            </div>
+
+
+            <!-- card 5-->
+
+            <div class="card   shadow-xl">
+                <figure><img src="./Asset/images/lights.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">Light Setup</h2>
+                  <p class="text-base font-bold">$1310.20</p>
+                  <div>
+                    
+                    <div class="rating">
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" checked />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                      </div>
+
+                  </div>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions">
+                    <button class="btn text-white bg-[#4B8B8B] border-none rounded-xl">Buy Now</button>
+                  </div>
+                </div>
+            </div>
+
+
+             <!-- card 6-->
+
+             <div class="card   shadow-xl">
+                <figure><img src="./Asset/images/setup.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">PhotoShoot Set</h2>
+                  <p class="text-base font-bold">$1040.10</p>
+                  <div>
+                    
+                    <div class="rating">
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" checked />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                      </div>
+
+                  </div>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions">
+                    <button class="btn text-white bg-[#4B8B8B] border-none rounded-xl">Buy Now</button>
+                  </div>
+                </div>
+            </div>
+
+
+            <!-- card 7 -->
+
+            <div class="card   shadow-xl">
+                <figure><img  src="./Asset/images/camera.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">Bloging Camera</h2>
+                  <p class="text-base font-bold">$1850.00</p>
+                  <div>
+                    
+                    <div class="rating">
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" checked />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                      </div>
+
+                  </div>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions">
+                    <button class="btn text-white bg-[#4B8B8B] border-none rounded-xl">Buy Now</button>
+                  </div>
+                </div>
+            </div>
+
+
+            <!-- card 8-->
+
+            <div class="card   shadow-xl">
+                <figure><img src="./Asset/images/single-light.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">Green Screen</h2>
+                  <p class="text-base font-bold">$20.25</p>
+                  <div>
+                    
+                    <div class="rating">
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" checked />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                      </div>
+
+                  </div>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions">
+                    <button class="btn text-white bg-[#4B8B8B] border-none rounded-xl">Buy Now</button>
+                  </div>
+                </div>
+            </div>
+
+
+             <!-- card 9-->
+
+             <div class="card   shadow-xl">
+                <figure><img src="./Asset/images/camera.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">Action Camera</h2>
+                  <p class="text-base font-bold">$300.00</p>
+                  <div>
+                    
+                    <div class="rating">
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" checked />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                        <input type="radio" name="rating-4" class="mask mask-star-2 bg-green-500" />
+                      </div>
+
+                  </div>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions">
+                    <button class="btn text-white bg-[#4B8B8B] border-none rounded-xl">Buy Now</button>
+                  </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <!-- featured sections -->
+
+    <section class="max-w-screen-xl mx-auto px-4 md:px-16 lg:px-24  mb-5 mt-2 py-2">
+
+
+        <div class="hero  bg-base-200 rounded-xl">
+            <div class="hero-content gap-8 flex-col-reverse lg:flex-row ">
+
+             <img src="./Asset/images/gear.png" class="w-full" />
+             
+              <div class="text-center lg:text-left">
+                <h1 class="text-xl lg:text-3xl font-bold">Featured products at one place</h1>
+                <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                <button class="btn text-white bg-[#4B8B8B] border-none rounded-xl">Join Now <i class="fa-solid fa-right-long fa-fade" style="color: #f7f7f7;"></i></button>
+              </div>
+
+              
+
+            </div>
+          </div>
+
+    </section>
+
+
+    <!-- footer section -->
+
+    <footer class="text-center  bg-[#4b8b8b] py-16">
+
+        <p class="text-2xl md:text-3xl text-white font-bold">Influencer Products</p>
+        <p class="text-sm  text-white font-bold">Copyright © 2020  influencer products</p>
+        <p class="text-xs  text-white font-bold">All rights reserved</p>
+
+        <div class="flex justify-center gap-2 items-center py-4">
+
+            <img src="./Asset/social icon/fb.png" alt="">
+            <img src="./Asset/social icon/twitter.png" alt="">
+            <img src="./Asset/social icon/youtube.png" alt="">
+
+
+
+        </div>
+
+
+
+    </footer>
+
+
+
+</body>
+
+
+</html>
